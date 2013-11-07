@@ -1,0 +1,44 @@
+<snippet>
+	<content><![CDATA[
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>${1:Title Page}</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- Bootstrap CSS -->
+		<link href="${2://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css}" rel="stylesheet" media="screen">
+	</head>
+	<body>
+		<!-- jQuery -->
+		<script src="${4://code.jquery.com/jquery.js}"></script>
+		<!-- Bootstrap JavaScript -->
+		<script src="${3://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js}"></script>
+
+		<!-- Nav tabs -->
+		<ul class="nav nav-tabs">
+			<li class="active"><a href="#home" data-toggle="tab">Home</a></li>
+			<li><a href="#profile" data-toggle="tab">Profile</a></li>
+			<li><a href="#messages" data-toggle="tab">Messages</a></li>
+			<li><a href="#settings" data-toggle="tab">Settings</a></li>
+		</ul>
+
+		<!-- Tab panes -->
+		<div class="tab-content">
+			<div class="tab-pane active" id="home">home content</div>
+			<div class="tab-pane" id="profile">profile content</div>
+			<div class="tab-pane" id="messages">message content</div>
+			<div class="tab-pane" id="settings">settings content</div>
+		</div>
+
+		<p>NOTE: 
+			<ul>
+				<li>The CDN links need changed for local hosting</li>
+				<li>IDs must be set on tab-pane and in link</li>
+				<li>Active also must be set twice</li>
+			</ul>
+
+	</body>
+</html>
+]]></content>
+	<tabTrigger>bs3-javascript-tabs</tabTrigger>
+</snippet>

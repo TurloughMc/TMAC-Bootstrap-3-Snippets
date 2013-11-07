@@ -1,0 +1,1 @@
+The snippets sets here are to supplement the Bootstrap 3 Snippets set - https://github.com/JasonMortonNZ/bs3-sublime-plugin
